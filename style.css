@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    background: rgb(173,95,5);
+background: radial-gradient(circle, rgba(173,95,5,1) 0%, rgba(255,211,49,1) 100%);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6%;
+    height: 10vh;
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(97, 57, 5);
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.N1{
+    display: flex;
+    gap: 15px;
+}
+nav button{
+    padding: 7px 25px;
+    color: rgb(97, 57, 5);
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+}
+.N2{
+    display: flex;
+    gap: 10px;
+}
+.b1{
+    background-color:rgb(97, 57, 5) ;
+    color: white;
+    border: 0;
+}
+
+    .b2{
+        border:1px solid rgb(97, 57, 5) ;
+        color: white;
+        background-color: transparent;
+    }
+ .logo img{
+    height: 100px;
+
+ }
+ .landingpage{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .left{
+    
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 5%;
+
+ }
+ .left h1{
+    text-transform: capitalize;
+    font-size: 4vw;
+    color:rgb(97, 57, 5)  ;
+ }
+ .left p{
+    text-transform: capitalize;
+    font-size: 1.8vw;
+    color:rgb(97, 57, 5)  ;
+ }
+ .right{
+    
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
+ .landingpage button{
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+ .right img{
+    height: 40vw;
+ }
